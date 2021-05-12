@@ -1,0 +1,7 @@
+<launch>
+
+	<node name="abc_grabber_service" pkg="abc_final" type="abc_grabber_service" output="screen"/>
+	
+	<node name="abc_dropper_service" pkg="abc_final" type="abc_dropper_service" output="screen"/>
+	
+</launch>

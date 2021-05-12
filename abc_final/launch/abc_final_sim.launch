@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find baxter_launch_files)/launch/baxter_object_grabber_nodes.launch"/>
+	
+	<include file="$(find baxter_gazebo)/launch/baxter_world.launch"/>
+	
+</launch>

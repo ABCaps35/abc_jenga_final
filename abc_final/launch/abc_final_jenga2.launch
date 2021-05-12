@@ -1,0 +1,10 @@
+<launch>
+<!--x,y,z = 1.028, -0.11, 0.8  rpy = 0,0,0.43-->
+
+<node name="spawn_toy_block4" pkg="gazebo_ros" type="spawn_model" args="-file $(find exmpl_models)/toy_block/toy_block.sdf -sdf -model toy_block4 -x 0.6 -y -0.35 -z 0.9  -Y -0.7853982" />
+
+<node name="spawn_toy_block5" pkg="gazebo_ros" type="spawn_model" args="-file $(find exmpl_models)/toy_block/toy_block.sdf -sdf -model toy_block5 -x 0.55 -y -0.3 -z 0.9  -Y -0.7853982" />
+
+<node name="spawn_toy_block6" pkg="gazebo_ros" type="spawn_model" args="-file $(find exmpl_models)/toy_block/toy_block.sdf -sdf -model toy_block6 -x 0.5 -y -0.25 -z 0.9  -Y -0.7853982" />
+
+</launch>
